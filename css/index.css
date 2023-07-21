@@ -1,0 +1,187 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(232, 233, 231);
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 10px;
+    background-color:rgb(232, 233, 231);
+}
+#buscar{
+    margin: 5px;
+    margin-left: 0;
+    padding: 3px;
+    border: none;
+    font-size: 17px;    
+}
+.buscarI{
+    font-size: 15px;
+}
+.sesion{
+    padding: 5px;
+
+}
+.sesion a{    
+    font-size: 24px;
+    margin: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.contenedorPadre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color:rgba(232, 233, 231, 0.684); 
+
+}
+
+.arauca{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.logo{
+    color: rgba(222, 53, 6, 0.874);
+    font-size: 40px;
+    text-decoration: none;
+    font-weight:bolder;   
+}
+@media(hover:hover){
+    .arauca:hover{
+        transform: scale(1.15);
+    }
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 6px;
+}
+.menu a{
+    color:  rgba(222, 53, 6, 0.874);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 20px;        
+}
+@media(hover:hover){
+    .menu a:hover{
+        transform: scale(1.15);
+    }
+}
+
+.titulo{
+    padding: 70px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(250, 235, 215);
+    background-color:rgb(232, 233, 231);
+}
+h1{
+    box-shadow: 10px 10px 15px #888 ;
+    background-color: rgba(222, 53, 6, 0.818);
+    border-radius: 5px;
+}
+.seguinos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color:antiquewhite;
+}
+.redes{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.redesI{
+    font-size: 25px;;
+}
+
+.destacados{
+    text-align: center;
+    padding: 25px;
+    background-color:rgb(232, 233, 231);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.contenedor div{
+    padding: 3px;
+    margin: 5px;
+    transition: all 300ms;
+}
+@media(hover:hover){
+    .contenedor div:hover{
+        transform: scale(1.15);
+    }
+}
+.contenedor div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px; 
+}
+
+
+.nosotros{
+    background-color:rgb(232, 233, 231);
+    padding: 30px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.conocenos{
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(22, 21, 20);
+}
+.conocenos a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color:rgb(232, 233, 231);
+
+}
+@media(hover:hover){
+    .conocenos a:hover {
+        color:#888
+    }
+}
+.conocenos:active{
+    background-color: rgba(32, 32, 32, 0.262);
+}
+
+footer{
+    background-color:rgba(232, 233, 231, 0.684); 
+}

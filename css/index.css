@@ -14,18 +14,21 @@
     justify-content: flex-end;
     align-content: center;
     padding: 10px;
-    background-color:rgb(232, 233, 231);
+    background-color:rgb(232, 233, 231); 
 }
+
 #buscar{
-    margin: 5px;
+    border-radius: 5px;
+    border:rgb(70, 70, 181);
+    margin: 4px;
+    margin-top: 8px;
     margin-left: 0;
     padding: 3px;
-    border: none;
     font-size: 17px;    
+    background-color:rgb(232, 233, 231); 
+    
 }
-.buscarI{
-    font-size: 15px;
-}
+
 .sesion{
     padding: 5px;
 
@@ -86,13 +89,14 @@
 
 .titulo{
     padding: 70px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    color: rgb(250, 235, 215);
     background-color:rgb(232, 233, 231);
 }
-h1{
+
+.hP{ 
+    color: rgb(250, 235, 215);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-shadow: 10px 10px 15px #888 ;
     background-color: rgba(222, 53, 6, 0.818);
     border-radius: 5px;
@@ -104,7 +108,6 @@ h1{
     justify-content: center;
     justify-content: space-evenly;
     background-color: black;
-    color:antiquewhite;
 }
 .redes{
     padding: 15px;
@@ -114,11 +117,17 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    color:antiquewhite;
+    text-decoration: none;
 } 
 .redesI{
-    font-size: 25px;;
+    font-size: 25px;
 }
-
+@media(hover:hover){
+    .redesI:hover{
+        transform: scale(1.15);
+    }
+}
 .destacados{
     text-align: center;
     padding: 25px;

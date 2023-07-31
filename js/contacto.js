@@ -1,39 +1,31 @@
-console.log('formulario de carga de productos');
+console.log('formulario de contacto');
 
-let productos = []
-//función 
+let contacto = []
 
-function cargarProductos () {
+function mensaje () {    
 
-    // tomamos los datos de la función
-console.log('Tu producto se cargo en la baseData');
+let nombre = document.getElementById('nombre').value;
+let apellido = document.getElementById('apellido').value;
+let email = document.getElementById('email').value;
+let comentario = document.getElementById('comentario').value;
 
-//tomamos los datos mediante el formulario:
-let nombreProducto = document.getElementById('nombreProducto').value;
-let precioProducto = document.getElementById('precioProducto').value;
+contacto.push(nombre, apellido, email, comentario)
 
-//guardamos los datos en el array:
-//productos.push(nombreProducto, precioProducto)
-
-console.log(typeof precioProducto);
-
-
-//creo un objeto literal:
-const producto = {
-    nombre: nombreProducto,
-    precio: precioProducto
+const mensajes = {
+    nombre: nombre,
+    apellido: apellido,
+    email: email,
+    comentario: comentario,
 }
-//imprimimos el objeto:
-console.log(producto);
-productos.push(producto)
+console.log(mensajes);
+contacto.push(mensajes);
 
-//imprimimos los datos de los productos
-console.log(productos);
-//llamo a la funcion cargar productos:
+console.log(contacto);
 
-// utilizamos el localstorage:
+localStorage.setItem('contacto', JSON.stringify(contacto))
 
-//1. creamos una variable para que podamos convertir los datos a json:
-let misProductos = JSON.stringify(productos);
 
-// 2. le pasamos la variable al localStorage:
+console.log('Tu mensaje fue enviado');
+alert ('mensaje enviado');
+location.reload();
+}

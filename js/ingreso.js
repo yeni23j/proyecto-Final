@@ -1,4 +1,4 @@
-let userAdmin = 'admin@gmail.com'
+let userAdmin = 'jos@gmail.com'
 let passAdmin = 1234
 
 
@@ -16,12 +16,15 @@ const validarFormulario = (e)=> {
     let pass = formulario.passwordLogin.value
 
     if (userAdmin == user  && passAdmin == pass){
-        alert ('Login exitoso');
+        alert ('Bienvenido a su Cuenta');
         location.href = '../pages/cuenta.html'
     } else {
-        alert ('login incorrecto');
-        location.reload();
-        
+        var mensaje = document.createElement("span");
+        mensaje.innerHTML = "Los datos ingresados no son correctos";
+        mensaje.style.color = "red";
+        document.getElementById("form").appendChild(mensaje);
+        document.getElementById("form").reset();
+
     }
 }
 

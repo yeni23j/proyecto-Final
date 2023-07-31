@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(232, 233, 231);
+}
+
+header{
+    border-bottom: rgba(0, 0, 0, 0.418) solid 3px;
+} 
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.productos div{
+    margin: 6px;
+}
+@media(hover:hover){
+    .productos div:hover{
+        border: 1px solid ;
+
+    }
+}
+.productos div img{
+
+    width: 200px;
+    height: 200px;
+}
+.productos p{
+    margin-bottom: 0;
+
+}
+
+.comprar{
+    margin: 5px 45px;
+    padding: 5px 20px 5px;
+    background-color: rgb(22, 21, 20);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(232, 233, 231);
+
+

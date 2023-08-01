@@ -156,6 +156,12 @@
     height: 200px;
     border-radius: 10px; 
 }
+.enlace{
+    text-decoration: none;
+    color:black
+
+}
+
 
 
 .nosotros{
@@ -194,3 +200,4 @@ h3{
 footer{
     background-color:rgba(232, 233, 231, 0.684); 
 }
+

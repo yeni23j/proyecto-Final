@@ -1,0 +1,15 @@
+.table{
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 20px;
+}
+.sesion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.cliente{
+    padding-top: 10px;
+
+}

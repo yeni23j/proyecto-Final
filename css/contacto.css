@@ -89,3 +89,60 @@ margin-top: 20px;
 footer{
     border-top: rgba(0, 0, 0, 0.418) solid 3px;
 } 
+
+@media screen and (max-width: 768px){
+    .formularioC{
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #nombre{
+        margin: 3px;
+        padding: 5px;
+        background-clip: padding-box;
+        border-radius: 4px;
+        width: 300px;
+    }
+    #apellido{
+        margin: 3px;
+        padding: 5px;
+        background-clip: padding-box;
+        border-radius: 4px;
+        width: 300px;
+    }
+    #email{
+        margin: 3px;
+        padding: 5px ;
+        background-clip: padding-box;
+        border-radius: 4px;
+        width: 300px;    
+    }
+    #reset{
+        margin: 8px;
+        padding: 5px;
+        border-radius: 4px;
+        background-color: rgb(122, 119, 119);
+    
+    }
+    .basurero{
+        background-color: rgb(122, 119, 119);
+    }
+    #comentario{
+        margin: 3px;
+        padding: 5px;
+        background-clip: padding-box;
+        border-radius: 4px;
+        width: 300px;
+    }
+    .enviar{
+        margin: 8px;
+        padding: 5px 38px 5px 38px;
+        border-radius: 4px;
+        background-color: rgb(73, 58, 165);
+        color:antiquewhite;
+        border-color: rgb(73, 58, 165);
+       
+    }
+}
+    

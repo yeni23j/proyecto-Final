@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>PÁGINA FINAL</title>
+	<title>PÁGINA PRINCIPAR</title>
 	<link rel="stylesheet" href="./css/index.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 <body>
 	<header>
 		<nav class="inicio">
-			<div>
+			<div class="buscador">
 				<label class="bi-search" for="buscar"> 
 				<input type="text" id="buscar" placeholder="Buscar producto"></label>
 			</div>
@@ -24,17 +24,28 @@
 			</div>
 		</nav>
 
+
 		<nav class="contenedorPadre">
 			<div class="arauca">
 				<a href="./index.html" class="logo"><i class="bi bi-fire"></i>Arauca</a>
 			</div>
-			<div class="menu">
-				<a href="./pages/productos.html" class=" productos">PRODUCTOS</a>
-				<a href="./pages/contacto.html">CONTACTO</a>
+
+			<ul class="menu">
+				<li><a href="./pages/productos.html" class=" productos">PRODUCTOS</a></li>
+				<li><a href="./pages/contacto.html">CONTACTO</a></li>
+			</ul>
+			<div>
+				<button class="list" type="button">
+					<i class="bi bi-list"></i>
+				</button>
 			</div>
 		</nav>
 	</header>
+
+
+
 	<main>
+
 		<div class="titulo">
 			<h1 class="hP"> EL CALOR EN TU HOGAR</h1>
 		</div>
@@ -127,7 +138,7 @@
 
 
 	</main>
-
+	<script src="../final/js/index.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
 		crossorigin="anonymous"></script>

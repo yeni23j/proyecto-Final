@@ -87,25 +87,10 @@ ul {
         color:  rgba(162, 38, 4, 0.874)
     }
 }
+ 
 .list{
-    display: none;
-}
-.ham{
     display:none;  
-    cursor: pointer;
-    border: none;
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-}
-.ham span{
-    display: block;
-    background-color: #723737;
-    height: 3px;
-    width: 28px;
-    margin: 10px auto;
-    border-radius: 2px;
-}
+} 
 
 .titulo{
     padding: 70px;
@@ -179,7 +164,7 @@ ul {
 .enlace{
     text-decoration: none;
     color:black
-
+    
 }
 
 
@@ -221,55 +206,91 @@ footer{
     background-color:rgba(232, 233, 231, 0.684); 
 }
 
+
+
+
+
+
+
 @media screen and  (max-width: 768px) {
-body{
-    overflow: hidden;
-}
 
 .buscador{
     display: none;
     }
-
-.menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 92vh;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: none;  
-}
-
-.menu.activado{
-    display: flex;
-
-}
-.menu li{
-    padding: 0 40px;
-    list-style-type: none ;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
+    
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 92vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;  
+    }
+    
+    .menu.activado{
+        display: flex;
+        
+    }
+    .menu li{
+        padding: 0 40px;
+        list-style-type: none ;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
 @media(hover:hover){
     .menu li:hover{
         background-color:  rgba(197, 192, 191, 0.874)
     }
 }
+.ham{
+    display: flex;
+    justify-content: flex-end;
+}
 
 .list{
     display:block;  
     position: absolute;
-    cursor: pointer;
-    border: none;
     margin: 0;
     padding: 0;
-    background-color: transparent;
+    border: none;
+    font-size: 20px;
+
 }
-.list i{
-    display: block; 
+.titulo{
+    padding: 20px;
+    background-color:rgb(232, 233, 231);
+}
+
+.hP{ 
+    color: rgb(250, 235, 215);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 15px #888 ;
+    background-color: rgba(222, 53, 6, 0.818);
+    border-radius: 5px;
+}
+.redes{
+    padding: 5px;
     font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:antiquewhite;
+    text-decoration: none;
+} 
+.redesI{
+    font-size: 25px;
+}
+@media(hover:hover){
+    .redesI:hover{
+        transform: scale(1.15);
+    }
 }
 }
